@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "api": {
+      "readapp": [
+        "Query",
+        "Mutation"
+      ]
+    },
+    "storage": {
+      "Article:@model(appsync)": [
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

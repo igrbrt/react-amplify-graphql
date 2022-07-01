@@ -1,0 +1,58 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "readapp1e6b9e8c_identitypool_1e6b9e8c",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "readap1e6b9e8c",
+    "userPoolName": "readapp1e6b9e8c_userpool_1e6b9e8c",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "birthdate",
+      "email",
+      "middle_name",
+      "gender",
+      "name",
+      "picture"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "readap1e6b9e8c_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "1e6b9e8c",
+    "resourceName": "readapp1e6b9e8c",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
+    "usernameAttributes": [
+      "email"
+    ],
+    "triggers": {
+      "PostConfirmation": [
+        "add-to-group"
+      ]
+    },
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}

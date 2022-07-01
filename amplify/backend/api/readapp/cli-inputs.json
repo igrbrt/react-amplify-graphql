@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "readapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\ProjetosReact\\readapp\\amplify\\backend\\api\\readapp\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

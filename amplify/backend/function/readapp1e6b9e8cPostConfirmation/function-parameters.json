@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "readapp1e6b9e8c",
+  "functionName": "readapp1e6b9e8cPostConfirmation",
+  "resourceName": "readapp1e6b9e8cPostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\snapshot\\repo\\build\\node_modules\\@aws-amplify\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "readapp1e6b9e8cPostConfirmation",
+  "skipEdit": true,
+  "GROUP": "students",
+  "enableCors": false
+}

@@ -1,0 +1,24 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-readapp-dev-215102-authRole",
+      "UnauthRoleArn": "arn:aws:iam::618510080424:role/amplify-readapp-dev-215102-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::618510080424:role/amplify-readapp-dev-215102-authRole",
+      "Region": "sa-east-1",
+      "DeploymentBucketName": "amplify-readapp-dev-215102-deployment",
+      "UnauthRoleName": "amplify-readapp-dev-215102-unauthRole",
+      "StackName": "amplify-readapp-dev-215102",
+      "StackId": "arn:aws:cloudformation:sa-east-1:618510080424:stack/amplify-readapp-dev-215102/b7121950-f80e-11ec-b27c-02d85cbd4da0"
+    },
+    "categories": {
+      "auth": {
+        "readapp1e6b9e8c": {}
+      },
+      "function": {
+        "readapp1e6b9e8cPostConfirmation": {
+          "GROUP": "students"
+        }
+      }
+    }
+  }
+}
