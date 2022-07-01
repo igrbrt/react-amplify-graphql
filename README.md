@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A React project with AWS Amplify, AppSync, GraphQL, DynamoDB, Lambda
 
 ## Amplify util commands  
 ### `npm install -g @aws-amplify/cli`   
