@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Amplify util commands  
+### `npm install -g @aws-amplify/cli`   
+### `amplify init`   
+----------------------
+### `amplify add api  -> add graphql`   
+### `amplify mock api -> generate schemas from models and run graphql`   
+### `amplify api gql-compile -> compile schemas`   
+----------------------
+### `amplify add function -> create lambda function`   
+### `amplify function remove -> remove lamda function`   
+### `amplify function build -> build lambda function`   
+### `amplify mock function <functionName> - run lambda function locally`   
+---------------------
+
 ## Available Scripts
 
 In the project directory, you can run:
